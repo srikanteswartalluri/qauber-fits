@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
-// ASSEL
+
 public class WF89 {
     protected WebDriver driver;
     protected WebDriverWait wait;
@@ -25,7 +25,6 @@ public class WF89 {
     private By passwordField = By.id("exampleInputPassword1");
     private By loginBtn = By.cssSelector("button[type = 'submit']");
 
-   // private By addReportButton = By.xpath("//ul[@class = 'nav ng-scope']//span[text() = 'Add Report']");
     private By mainHeader = By.xpath("//h3[contains(text(),  'Reports')]");
     private By reportHeader = By.xpath("//h3[contains(text(),  'Field Interview Card')]");
 
@@ -57,16 +56,11 @@ public class WF89 {
     @Test
     public void test() throws Exception {
 
-     //   WebElement firstHeader = driver.findElement(mainHeader);
-
         driver.findElement(mainHeader).click();
 
         System.out.println("Click on the \"Report\" located in the left sidebar on the AU page");
 
 
-        // WebElement secondHeader = driver.findElement(reportHeader);
-
-        // assertNotEquals(firstHeader, secondHeader);
         System.out.println("AU should be redirected to the Report page.");
 
         TakesScreenshot ts =(TakesScreenshot)driver;

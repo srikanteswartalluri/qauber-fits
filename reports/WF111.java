@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
-// ASSEL
+
 public class WF111 {
     protected WebDriver driver;
     protected WebDriverWait wait;
@@ -28,7 +28,6 @@ public class WF111 {
 
     private By mainHeader = By.xpath("//h3[contains(text(),  'Reports')]");
     private By lastNameField = By.xpath("//input[@type='text'][2]");
-
 
 
     @BeforeClass

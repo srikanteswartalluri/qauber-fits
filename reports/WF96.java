@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import static org.testng.Assert.assertNotEquals;
-// ASSEL
+
 public class WF96 {
     protected WebDriver driver;
     protected WebDriverWait wait;
@@ -28,7 +28,7 @@ public class WF96 {
     private By passwordField = By.id("exampleInputPassword1");
     private By loginBtn = By.cssSelector("button[type = 'submit']");
 
-   // private By addReportButton = By.xpath("//ul[@class = 'nav ng-scope']//span[text() = 'Add Report']");
+
     private By mainHeader = By.xpath("//h3[contains(text(),  'Reports')]");
     private By reportHeader = By.xpath("//h3[contains(text(),  'Field Interview Card')]");
 
@@ -60,16 +60,13 @@ public class WF96 {
     @Test
     public void test() throws Exception {
 
-     //   WebElement firstHeader = driver.findElement(mainHeader);
+    
 
         driver.findElement(mainHeader).click();
 
         System.out.println("Click on the \"Report\" located in the left sidebar on the RU page");
 
 
-        // WebElement secondHeader = driver.findElement(reportHeader);
-
-        // assertNotEquals(firstHeader, secondHeader);
         System.out.println("RU should be redirected to the Report page.");
 
         TakesScreenshot ts =(TakesScreenshot)driver;

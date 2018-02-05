@@ -21,7 +21,6 @@ public class WF111 {
     private String password = "qwery123";
     private String lastName = "j";
 
-
     private By loginField = By.id("exampleInputEmail1");
     private By passwordField = By.id("exampleInputPassword1");
     private By loginBtn = By.cssSelector("button[type = 'submit']");

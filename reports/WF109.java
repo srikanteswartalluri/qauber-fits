@@ -20,7 +20,6 @@ public class WF109 {
     private String login = "asads@amail.club";
     private String password = "qwery123";
 
-
     private By loginField = By.id("exampleInputEmail1");
     private By passwordField = By.id("exampleInputPassword1");
     private By loginBtn = By.cssSelector("button[type = 'submit']");

@@ -28,7 +28,6 @@ public class WF96 {
     private By passwordField = By.id("exampleInputPassword1");
     private By loginBtn = By.cssSelector("button[type = 'submit']");
 
-
     private By mainHeader = By.xpath("//h3[contains(text(),  'Reports')]");
     private By reportHeader = By.xpath("//h3[contains(text(),  'Field Interview Card')]");
 

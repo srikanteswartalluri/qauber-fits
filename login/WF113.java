@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
-// ASSEL
+
 public class WF113 {
     protected WebDriver driver;
     protected WebDriverWait wait;

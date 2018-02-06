@@ -21,14 +21,12 @@ public class ClickSaveButton {
         wave.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     
         Thread.sleep(2000);
-        //wave.switchTo().frame(0);
         wave.findElement(By.xpath("//button[@class='btn btn-block btn-primary mt-lg']")).click();
         
         wave.findElement(By.xpath("//a/em[@class='icon-user']")).click();
         wave.findElement(By.xpath("//button/em[@class='fa fa-sitemap']")).click();
         
         Thread.sleep(2000);
-        //wave.findElement(By.xpath("//*[@id=\"ngdialog1\"]/div[2]/div[1]/div/table/tbody/tr[2]/td[2]/select")).click();
         Select select = new Select(wave.findElement(By.xpath("//*[@id=\"ngdialog1\"]/div[2]/div[1]/div/table/tbody/tr[2]/td[2]/select")));
         select.selectByVisibleText("Admin");
         

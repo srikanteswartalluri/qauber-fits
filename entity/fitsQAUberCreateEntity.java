@@ -76,9 +76,9 @@ public class fitsQAUberCreateEntity {
             WebElement NextStep3 = dr.findElement(By.xpath("/html/body/div[2]/section/div/div/div[2]/button[2]"));
             NextStep3.click();
 //Slider
-            //    /html/body/div[2]/section/div/div/div[1]/div[4]/div/div/div[1]/div[2]
-            //    /html/body/div[2]/section/div/div/div[1]/div[4]/div/div/div[1]/div[3]
-            //    /html/body/div[2]/section/div/div/div[1]/div[4]/div/div/div[1]/div[4]
+                html/body/div[2]/section/div/div/div[1]/div[4]/div/div/div[1]/div[2]
+                html/body/div[2]/section/div/div/div[1]/div[4]/div/div/div[1]/div[3]
+               html/body/div[2]/section/div/div/div[1]/div[4]/div/div/div[1]/div[4]
 
             WebElement NextStep4 = dr.findElement(By.xpath("/html/body/div[2]/section/div/div/div[2]/button[2]"));
             NextStep4.click();

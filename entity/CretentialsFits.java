@@ -1,5 +1,5 @@
 package QAuber.Fits;
-
+//Here are credetials for Fits test cases 
 public class CretentialsFits {
 	public static String email() {
 		return "dynoto@amail.club";
